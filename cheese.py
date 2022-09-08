@@ -70,6 +70,7 @@ def parse_target(target):
 
 
 if __name__ == "__main__":
+    print("CheeseOunce impacket-version by @eversinc33, original C poc by @evilashz")
     parser = argparse.ArgumentParser(add_help = True, description = "Cause a machine to authenticate to you via MS_EVEN ElfrOpenBELW")
     parser.add_argument('target', action='store', help='[[domain/]username[:password]@]<targetName or address>')
     parser.add_argument('listenip', action="store", metavar = "Listener IP", help="IP of the listener that the target will authenticate to")
